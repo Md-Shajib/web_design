@@ -1,0 +1,108 @@
+body{}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.icon-bar{
+   
+}
+.icon-bar ul{
+
+}
+.icon-bar ul li{
+    list-style: none;
+    display: inline-block;
+    background: #d6d1d0;
+    border: 1px dotted black;
+    border-radius: 5px;
+}
+.icon-bar ul li a{
+    padding: 5px;
+    display: inline-block;
+}
+.icon-bar ul li a:hover{
+    color: #fff;
+    background: blue;
+    border-radius: 4px;
+    display: block;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background: #e74c3c;
+    margin-right: 10px;
+}
+.rectangle{
+    height: 100px;
+    width: 200px;
+    background: #e74c3c;
+    margin-right: 10px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background: #e74c3c;
+    border-radius: 50%;
+}
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid #e74c3c;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 160px solid #e74c3c;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-right: 160px solid #e74c3c;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    margin-right: 10px;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-left: 160px solid #e74c3c;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    margin-right: 10px;
+}
+.dim{
+    width: 80px;
+    height: 160px;
+    background: #e74c3c;
+    border-radius: 160px/320px;
+}
+.first{
+    display: inline-flex;
+    max-width: 100%;
+    text-align: center;
+}
+.second{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.shapes{
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+    line-height: 57px;
+}
+.triangle-up h4{
+    text-align: center;
+    line-height: 50px;
+}
+h4 {
+    text-align: center;
+    line-height: 114px;
+}
